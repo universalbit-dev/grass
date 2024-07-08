@@ -64,7 +64,7 @@ Documentation:
 ### [QGIS Grass Integration](https://docs.qgis.org/3.34/en/docs/user_manual/grass_integration/grass_integration.html)
 
 ```bash
-docker build -t grassgis .
+sudo docker build -t grassgis .
 ```
 
 A test run (assuming you have the existing GRASS GIS test location; it can be
