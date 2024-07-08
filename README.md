@@ -51,6 +51,10 @@ containing the source code):
 
 A. Docker image **without graphical user interface - wxGUI**.
 
+#### Ubuntu 24 (Noble Numbat)
+```bash
+sudo snap install docker
+```
 ```bash
 docker build -t grassgis .
 ```
