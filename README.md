@@ -50,6 +50,9 @@ Build a docker image using the downloaded source code (run this in the directory
 containing the source code):
 
 A. Docker image **without graphical user interface - wxGUI**.
+Documentation: 
+
+### [QGIS Grass Integration](https://docs.qgis.org/3.34/en/docs/user_manual/grass_integration/grass_integration.html)
 
 #### Ubuntu 24 (Noble Numbat)
 ```bash
