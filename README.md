@@ -44,7 +44,16 @@ Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are
 detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
 in the Wiki.
 
-## Docker
+
+## Clone Repository :
+```bash
+git clone https://github.com/universalbit-dev/grass.git
+cd grass
+```
+## Docker Ubuntu 24 (Noble Numbat)
+```bash
+sudo snap install docker
+```
 
 Build a docker image using the downloaded source code (run this in the directory
 containing the source code):
@@ -54,10 +63,6 @@ Documentation:
 
 ### [QGIS Grass Integration](https://docs.qgis.org/3.34/en/docs/user_manual/grass_integration/grass_integration.html)
 
-#### Ubuntu 24 (Noble Numbat)
-```bash
-sudo snap install docker
-```
 ```bash
 docker build -t grassgis .
 ```
