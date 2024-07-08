@@ -67,6 +67,20 @@ Documentation:
 sudo docker build -t grassgis .
 ```
 
+looking at the missing lib dirs all missing libs are at their places:
+```bash
+locate libplugin_grass8.so
+/usr/lib/qgis/plugins/libprovider_grass8.so
+```
+
+
+```bash
+locate libgrass_gis.8
+/usr/lib/grass82/lib/libgrass_gis.8.2.so
+```
+
+
+
 A test run (assuming you have the existing GRASS GIS test location; it can be
 downloaded from
 [here](https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.zip))
